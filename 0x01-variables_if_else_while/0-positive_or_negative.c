@@ -1,9 +1,11 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* more headers goes there */
-
-/* betty style doc for function main goes there */
+/**
+ * main - How to assign a random variable in c
+ * Description: 'To assign a random variable each time n is executed'
+ * Return: 0 (Always 0)
+ */
 int main(void)
 {
 	int n;
