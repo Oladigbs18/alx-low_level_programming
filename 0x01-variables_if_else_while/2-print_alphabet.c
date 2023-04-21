@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - I play what I call the alphabet game
- * Desription: 'to print alphabet in lowercase'
+ * Desription: 'To print alphabet in lowercase'
  * Return: 0 (Always 0)
  */
 int main(void)
@@ -13,6 +13,6 @@ int main(void)
 		putchar(n);
 		n++;
 	}
-	putchar("\n");
+	putchar('\n');
 	return (0);
 }
