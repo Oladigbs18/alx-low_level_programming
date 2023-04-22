@@ -4,7 +4,7 @@
 /**
  * main - Entry point
  * Description: 'to print numbers involving different combinations'
- * Return: 0 (Always 0)
+ * Return: Always 0
  */
 int main(void)
 {
@@ -12,18 +12,18 @@ int main(void)
 
 	for (a = '0'; a < '9'; a++)
 	{
-	
-	for (b = a + 1; b < '9'; b++)
+
+	for (b = a + 1; b <= '9'; b++)
 	{
-	
-	for (c = b + 1; c < '9'; c++)
+
+	for (c = b + 1; c <= '9'; c++)
 	{
 	if ((b != a) != c)
 	{
 	putchar(a);
 	putchar(b);
 	putchar(c);
-	if (a = '7' && b = '8')
+	if (a == '7' && b == '8')
 	continue;
 	putchar(',');
 	putchar(' ');
@@ -31,6 +31,6 @@ int main(void)
 	}
 	}
 	}
-	putchar('\n')0;
+	putchar('\n');
 	return (0);
 }
