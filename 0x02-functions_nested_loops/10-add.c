@@ -1,4 +1,4 @@
-nclude "main.h"
+#include "main.h"
 /**
  * add - Entry point
  * @a: The first number
@@ -8,5 +8,4 @@ nclude "main.h"
 int add(int a, int b)
 {
 	return (a + b);
-	_putchar('\n');
 }
