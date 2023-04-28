@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include "main.h"
-
 /**
- * _isupper - to print upperecase letters in c
+ * _isupper - Check the code
+ *
  * @c: This is a character in ASCII code
  * Return: 0
  */
