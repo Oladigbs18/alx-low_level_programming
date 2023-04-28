@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include "main.h"
+
 /**
- * _isupper - Check the code
- *
- * @c: This is a character in ASCII code
+ * _isupper - check the code
+ * @c: This is an ASCII character
  * Return: 0
  */
 int _isupper(int c)
