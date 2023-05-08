@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * _strspn - Returns the number of bytes in the initial segment of s 
+ * _strspn - Returns the number of bytes in the initial segment of s
  * which consist only of bytes from accept
  * @accept:the length of the prefix
  * @s: the initial segment
