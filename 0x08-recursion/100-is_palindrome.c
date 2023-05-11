@@ -1,4 +1,9 @@
 #include "main.h"
+#include <stdio.h>
+
+int check_palindrome(char *s, int len, int index);
+int is_palindrome(char *s);
+int find_strlen(char *s);
 
 /**
 * is_palindrome - returns true if the given string is a palindrome
