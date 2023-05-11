@@ -4,7 +4,7 @@
 /**
  * _print_rev_recursion - to print a string in reverse
  * @s: The string character
- * 
+ *
  * Return: empty
  */
 
