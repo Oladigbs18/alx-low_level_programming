@@ -5,6 +5,7 @@
 #include <stdlib.h>
 #define min(x, y) (((x) < (y)) ? (x) : (y))
 
+void *malloc_checked(unsigned int b);
 int len(char *str);
 int find_len(char *str);
 char *create_xarray(int size);
