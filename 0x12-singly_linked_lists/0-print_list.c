@@ -1,6 +1,6 @@
-#include "main.h"
-#include <stdio.h>
 #include <stddef.h>
+
+size_t node_count = 0; 
 
 size_t print_list(const list_t *h)
 {
